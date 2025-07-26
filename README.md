@@ -8,7 +8,7 @@ Analyze sentiment of user-input text in real-time.
 Visualize sentiment distribution of sample tweets from the Sentiment140 dataset using a pie chart.
 Simple and intuitive web interface.
 
-Tech Stack
+#Tech Stack
 
 Python: Backend logic and sentiment analysis.
 Flask: Web framework for the user interface.
@@ -32,7 +32,7 @@ Download the Sentiment140 dataset from Kaggle and place training.1600000.process
 Run the application:python app.py
 
 
-Open http://localhost:5000 in your browser.
+Open http://127.0.0.1:5000 in your browser.
 
 Usage
 
