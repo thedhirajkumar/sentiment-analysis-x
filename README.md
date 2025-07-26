@@ -1,55 +1,52 @@
 # 🧠 Twitter Sentiment Analysis App
 
-A simple web app built with **Python**, **Flask**, and **scikit-learn** to analyze the sentiment (Positive, Negative, Neutral) of tweets using machine learning.
+Sentiment Analyzer
+A Python-based web application that performs sentiment analysis on text input using VADER (Valence Aware Dictionary and sEntiment Reasoner). Built with Flask, it allows users to input text and view sentiment (Positive, Negative, or Neutral) while displaying a pie chart of sentiment distribution from the Sentiment140 dataset or sample texts. Developed by Dhiraj Kumar, CSE student at NIT Silchar.
+Features
 
-![Sentiment Pie Chart](static/sentiment_plot.png)
+Analyze sentiment of user-input text in real-time.
+Visualize sentiment distribution of sample tweets from the Sentiment140 dataset using a pie chart.
+Simple and intuitive web interface.
 
----
+Tech Stack
 
-## 📌 Features
+Python: Backend logic and sentiment analysis.
+Flask: Web framework for the user interface.
+VADER (via NLTK): Sentiment analysis library.
+Pandas & Matplotlib: Data handling and visualization.
 
-- 🔍 Clean text preprocessing (emoji removal, lowercasing, etc.)
-- 💬 Sentiment classification (Logistic Regression)
-- 📊 Pie chart visualization of predictions
-- 🌐 Simple, responsive frontend with HTML/CSS
-- 🚀 Easy-to-run Flask backend
+Installation
 
----
-
-## 🖼️ Demo
-
-Enter a tweet and get the sentiment prediction instantly:
-
-![Demo Screenshot](static/demo_screenshot.png)
-
----
-
-## 📂 Project Structure
-sentiment-analysis-x/
-│
-├── app.py # Main Flask app
-├── templates/
-│ └── index.html # HTML frontend
-├── static/
-│ └── sentiment_plot.png # Auto-generated sentiment chart
-├── model/
-│ └── sentiment140.csv # [Not included: see below]
-├── venv/ # Virtual environment (excluded via .gitignore)
-└── requirements.txt # Python dependencies
+Clone the repository:git clone https://github.com/your-username/sentiment-analyzer.git
+cd sentiment-analyzer
 
 
-#🔧 Tech Stack
-Python
+Set up a virtual environment:python -m venv venv
+.\venv\Scripts\activate  # On Windows
 
-Flask
 
-Pandas, NumPy
+Install dependencies:pip install -r requirements.txt
 
-scikit-learn
 
-Matplotlib
+Download the Sentiment140 dataset from Kaggle and place training.1600000.processed.noemoticon.csv as sentiment140.csv in the project folder.
+Run the application:python app.py
 
-HTML/CSS
 
-✍️ Author
-Dhiraj Kumar
+Open http://localhost:5000 in your browser.
+
+Usage
+
+Enter text in the input field and click "Analyze" to see the sentiment result.
+View the pie chart below, which shows the sentiment distribution of the first 10 tweets from the Sentiment140 dataset (or hardcoded sample texts if the dataset is missing).
+
+Future Improvements
+
+Integrate real-time X post fetching via the X API.
+Add support for multilingual sentiment analysis (e.g., Hindi).
+Deploy to a cloud platform like Heroku or Render for a live demo.
+Enhance the UI with Bootstrap or a modern framework.
+
+License
+MIT License
+
+
