@@ -8,7 +8,7 @@ Analyze sentiment of user-input text in real-time.
 Visualize sentiment distribution of sample tweets from the Sentiment140 dataset using a pie chart.
 Simple and intuitive web interface.
 
-#Tech Stack
+# Tech Stack
 
 -Python: Backend logic and sentiment analysis.
 
