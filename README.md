@@ -13,7 +13,9 @@ Simple and intuitive web interface.
 -Python: Backend logic and sentiment analysis.
 
 -Flask: Web framework for the user interface.
+
 -VADER (via NLTK): Sentiment analysis library.
+
 -Pandas & Matplotlib: Data handling and visualization.
 
 Installation
