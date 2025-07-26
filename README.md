@@ -18,6 +18,9 @@ Simple and intuitive web interface.
 
 -Pandas & Matplotlib: Data handling and visualization.
 
+# 🟡 Recommendation
+-sentiment140.csv is used for training and must be downloaded manually due to size limits.
+
 Installation
 
 Clone the repository:git clone https://github.com/your-username/sentiment-analyzer.git
